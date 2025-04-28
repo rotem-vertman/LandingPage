@@ -113,3 +113,29 @@ a {
     width: 180px;
 }
 
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    gap: 20px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #4c545f;
+    font-style: italic;
+}
+
+.quoter {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 20px;
+}
