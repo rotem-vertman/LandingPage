@@ -60,7 +60,7 @@ a {
 
 .hero-secondary-text {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #919192;
 }
 
 .sign-up-button {
@@ -78,3 +78,38 @@ a {
     flex-shrink: 0;
     width: 400;
 }
+
+.info-header {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    padding: 50px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+.info-containers {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 70px;
+}
+
+.info-img {
+    border-radius: 8px;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+.info-container {
+    width: 180px;
+}
+
