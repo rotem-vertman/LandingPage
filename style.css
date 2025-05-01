@@ -63,15 +63,21 @@ a {
     color: #919192;
 }
 
-.sign-up-button {
+
+.sign-up-button, .action-container {
     background-color: #3882f6;
-    padding: 10px 24px;
+    padding: 10px 20px;
     text-decoration: none;
-    font-weight: bold;
-    width: 75px;
-    text-align: center;
     color: #f9faf8 ;
     border-radius: 8px;
+}
+
+.sign-up-button {
+    font-weight: bold;
+    width: 110px;
+    text-align: center;
+    border-color: white;
+    
 }
 
 .img {
@@ -138,4 +144,22 @@ a {
     align-self: flex-end;
     font-weight: 900;
     font-size: 20px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
+.action-container {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.action-header {
+    font-weight: 800;
 }
