@@ -3,10 +3,13 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.header {
+.header, .hero, .footer {
     background-color: #1f2937;
-    padding-top: 20px;
     display: flex;
+}
+
+.header {
+    padding-top: 20px;
     justify-content: space-around;
     align-items: center;
 }
@@ -36,8 +39,6 @@ a {
 }
 
 .hero {
-    background-color: #1f2937;
-    display: flex;
     justify-content: center;
     gap: 20px;
     padding: 100px;
@@ -162,4 +163,11 @@ a {
 
 .action-header {
     font-weight: 800;
+}
+
+.footer {
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
